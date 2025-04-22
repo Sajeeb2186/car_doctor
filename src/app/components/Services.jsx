@@ -170,7 +170,7 @@ export default function Services() {
 
                        <Image src={items.img} width={314} alt='img not found' height={208}></Image>
                        <p>{items.title}</p>
-                       <p>{items.price}</p>
+                       {/* <p>{items.price}</p> */}
                     
                     
                        </div>
