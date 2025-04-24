@@ -169,7 +169,7 @@ export default function Services() {
                 return <div className='col-span-12 md:col-span-6 lg:col-span-4 mx-auto' key={items._id}  >
 
                        <Image src={items.img} width={314} alt='img not found' height={208}></Image>
-                       <p>{items.title}</p>
+                       {/* <p>{items.title}</p> */}
                        <p>{items.price}</p>
                     
                     
